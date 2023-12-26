@@ -12,6 +12,7 @@ local RESETAVATAR = Instance.new("TextButton")
 local DISCO = Instance.new("TextButton")
 local HINTGAME = Instance.new("TextButton")
 local BALLRAINING = Instance.new("TextButton")
+local PARTICLES = Instance.new("TextButton")
 
 --Properties:
 
@@ -204,6 +205,47 @@ while true do
 			doom.Velocity=Vector3.new(communism, communism, communism)
 			doom.Parent = game.Workspace
 		end
+end)
+PARTICLES.Parent = Frame
+PARTICLES.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PARTICLES.BorderColor3 = Color3.fromRGB(196, 40, 28)
+PARTICLES.BorderSizePixel = 3
+PARTICLES.Position = UDim2.new(0.08, 0, 0.25, 0)
+PARTICLES.Size = UDim2.new(0, 92, 0, 30)
+PARTICLES.Font = Enum.Font.SourceSans
+PARTICLES.Text = "DREAMYBULLXXX PARTICLES"
+PARTICLES.TextColor3 = Color3.fromRGB(242, 243, 243)
+PARTICLES.TextScaled = true
+PARTICLES.TextSize = 14.000
+PARTICLES.TextWrapped = true
+PARTICLES.MouseButton1Down:connect(function()
+local ID = 15681662754 -- Change your ID here fellas cXz (Image ID)
+ local particle = true
+
+-- Don’t change anything down below if you don’t know what are you doing [This script made by cXyzkidd]
+
+if particle == true then
+	for i,v in pairs (game.Workspace:GetChildren()) do
+		if v:IsA("Part") then
+			local particle = Instance.new("ParticleEmitter")
+			particle.Texture = "http://www.roblox.com/asset/?id=" ..ID
+			particle.Parent = v
+			particle.Rate = 200
+			for i,x in pairs (game.Workspace:GetChildren()) do
+				if x:IsA("Model") then
+					for i,z in pairs (x:GetChildren()) do
+						if z:IsA("Part") then
+							local particle2 = Instance.new("ParticleEmitter")
+							particle2.Texture = "http://www.roblox.com/asset/?id=" ..ID
+							particle2.Parent = z
+							particle2.Rate = 200
+						end
+					end
+				end
+			end
+		end
+	end
+end
 end)
 
 -- Scripts :
