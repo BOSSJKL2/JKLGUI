@@ -432,7 +432,7 @@ for i,v in pairs(workspace:GetDescendants()) do
 end)
 FIREALL.Parent = Frame
 FIREALL.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-FIREALL.BorderColor3 = Color3.fromRGB(196, 40, 28)
+FIREALL.BorderColor3 = Color3.fromRGB(75, 151, 75)
 FIREALL.BorderSizePixel = 3
 FIREALL.Position = UDim2.new(0.38, 0, 0.55, 0)
 FIREALL.Size = UDim2.new(0, 92, 0, 30)
@@ -451,7 +451,7 @@ Fire.SecondaryColor = Color3.new(1,1,90)
 end)
 DREAMYBULLXXX.Parent = Frame
 DREAMYBULLXXX.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-DREAMYBULLXXX.BorderColor3 = Color3.fromRGB(75, 151, 75)
+DREAMYBULLXXX.BorderColor3 = Color3.fromRGB(196, 40, 28)
 DREAMYBULLXXX.BorderSizePixel = 3
 DREAMYBULLXXX.Position = UDim2.new(0.08, 0, 0.55, 0)
 DREAMYBULLXXX.Size = UDim2.new(0, 92, 0, 30)
