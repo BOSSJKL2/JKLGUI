@@ -17,6 +17,7 @@ local NOOTNOOT = Instance.new("TextButton")
 local SKYBOX = Instance.new("TextButton")
 local JUMPSCARE = Instance.new("TextButton")
 local C00ZBDDKIDDGUI = Instance.new("TextButton")
+local TEAMSERVICE = Instance.new("TextButton")
 
 --Properties:
 
@@ -347,6 +348,22 @@ loadstring(game:HttpGet("https://pastebin.com/raw/WXDxQ2Ld"))()
 wait()
 setclipboard("KEY IS C00ZBDDKIDDONTOP")
 end)
+TEAMSERVICE.Parent = Frame
+TEAMSERVICE.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TEAMSERVICE.BorderColor3 = Color3.fromRGB(196, 40, 28)
+TEAMSERVICE.BorderSizePixel = 3
+TEAMSERVICE.Position = UDim2.new(0.8, 0, 0.35, 0)
+TEAMSERVICE.Size = UDim2.new(0, 92, 0, 30)
+TEAMSERVICE.Font = Enum.Font.SourceSans
+TEAMSERVICE.Text = "TEAM"
+TEAMSERVICE.TextColor3 = Color3.fromRGB(242, 243, 243)
+TEAMSERVICE.TextScaled = true
+TEAMSERVICE.TextSize = 14.000
+TEAMSERVICE.TextWrapped = true
+TEAMSERVICE.MouseButton1Down:connect(function()
+Workspace.Remote.TeamEvent:FireServer("Bright red")
+end)
+
 -- Scripts :
 
 local function QFCS_fake_script() -- Frame.Dragify 
