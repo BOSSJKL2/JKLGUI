@@ -20,6 +20,7 @@ local C00ZBDDKIDDGUI = Instance.new("TextButton")
 local PHONk = Instance.new("TextButton")
 local DAY = Instance.new("TextButton")
 local NIGHT = Instance.new("TextButton")
+local STOPMUSIC = Instance.new("TextButton")
 
 --Properties:
 
@@ -408,7 +409,25 @@ while true do
 		wait(0.5)
 	end
 end)
-
+STOPMUSIC.Parent = Frame
+STOPMUSIC.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+STOPMUSIC.BorderColor3 = Color3.fromRGB(75, 151, 75)
+STOPMUSIC.BorderSizePixel = 3
+STOPMUSIC.Position = UDim2.new(0.68, 0, 0.45, 0)
+STOPMUSIC.Size = UDim2.new(0, 92, 0, 30)
+STOPMUSIC.Font = Enum.Font.SourceSans
+STOPMUSIC.Text = "STOP MUSIC"
+STOPMUSIC.TextColor3 = Color3.fromRGB(242, 243, 243)
+STOPMUSIC.TextScaled = true
+STOPMUSIC.TextSize = 14.000
+STOPMUSIC.TextWrapped = true
+STOPMUSIC.MouseButton1Down:connect(function()
+for i,v in pairs(workspace:GetDescendants()) do
+        if v:IsA("Sound") then
+            v.Playing = false
+        end
+    end
+end)
 -- Scripts :
 
 local function QFCS_fake_script() -- Frame.Dragify 
