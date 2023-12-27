@@ -17,7 +17,7 @@ local NOOTNOOT = Instance.new("TextButton")
 local SKYBOX = Instance.new("TextButton")
 local JUMPSCARE = Instance.new("TextButton")
 local C00ZBDDKIDDGUI = Instance.new("TextButton")
-local TEAMSERVICE = Instance.new("TextButton")
+local PHONk = Instance.new("TextButton")
 
 --Properties:
 
@@ -348,20 +348,25 @@ loadstring(game:HttpGet("https://pastebin.com/raw/WXDxQ2Ld"))()
 wait()
 setclipboard("KEY IS C00ZBDDKIDDONTOP")
 end)
-TEAMSERVICE.Parent = Frame
-TEAMSERVICE.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TEAMSERVICE.BorderColor3 = Color3.fromRGB(196, 40, 28)
-TEAMSERVICE.BorderSizePixel = 3
-TEAMSERVICE.Position = UDim2.new(0.08, 0, 0.35, 0)
-TEAMSERVICE.Size = UDim2.new(0, 92, 0, 30)
-TEAMSERVICE.Font = Enum.Font.SourceSans
-TEAMSERVICE.Text = "TEAM"
-TEAMSERVICE.TextColor3 = Color3.fromRGB(242, 243, 243)
-TEAMSERVICE.TextScaled = true
-TEAMSERVICE.TextSize = 14.000
-TEAMSERVICE.TextWrapped = true
-TEAMSERVICE.MouseButton1Down:connect(function()
-Workspace.Remote.TeamEvent:FireServer("Bright red")
+PHONk.Parent = Frame
+PHONk.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PHONk.BorderColor3 = Color3.fromRGB(196, 40, 28)
+PHONk.BorderSizePixel = 3
+PHONk.Position = UDim2.new(0.08, 0, 0.35, 0)
+PHONk.Size = UDim2.new(0, 92, 0, 30)
+PHONk.Font = Enum.Font.SourceSans
+PHONk.Text = "PHONk"
+PHONk.TextColor3 = Color3.fromRGB(242, 243, 243)
+PHONk.TextScaled = true
+PHONk.TextSize = 14.000
+PHONk.TextWrapped = true
+PHONk.MouseButton1Down:connect(function()
+local tubers93		= Instance.new("Sound")
+		tubers93.Parent		= game:GetService("Workspace")
+		tubers93.SoundId		= "rbxassetid://4822707169 "
+		tubers93.Playing		= true
+		tubers93.Looped		= true
+		tubers93.Volume		= 5e9
 end)
 
 -- Scripts :
