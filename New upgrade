@@ -445,13 +445,16 @@ ANTIKICK.BorderSizePixel = 3
 ANTIKICK.Position = UDim2.new(0.38, 0, 0.55, 0)
 ANTIKICK.Size = UDim2.new(0, 92, 0, 30)
 ANTIKICK.Font = Enum.Font.SourceSans
-ANTIKICK.Text = "ANTI KICK"
+ANTIKICK.Text = "ANTI LEAVE"
 ANTIKICK.TextColor3 = Color3.fromRGB(242, 243, 243)
 ANTIKICK.TextScaled = true
 ANTIKICK.TextSize = 14.000
 ANTIKICK.TextWrapped = true
 ANTIKICK.MouseButton1Down:connect(function()
-
+local v6 = game:GetService("TeleportService")
+local v10 = game:GetService("Players").LocalPlayer
+	game:GetService("GuiService").MenuOpened:Connect(function()
+		v6:Teleport(game.PlaceId, v10)
 end)
 BANII.Parent = Frame
 BANII.BackgroundColor3 = Color3.fromRGB(174, 167, 255)
