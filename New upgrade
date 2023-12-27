@@ -14,6 +14,7 @@ local HINTGAME = Instance.new("TextButton")
 local BALLRAINING = Instance.new("TextButton")
 local PARTICLES = Instance.new("TextButton")
 local NOOTNOOT = Instance.new("TextButton")
+local SKYBOX = Instance.new("TextButton")
 
 --Properties:
 
@@ -262,6 +263,30 @@ NOOTNOOT.TextSize = 14.000
 NOOTNOOT.TextWrapped = true
 NOOTNOOT.MouseButton1Down:connect(function()
 loadstring(game:HttpGet(('https://pastebin.com/raw/E3nvcW9y'),true))()
+end)
+SKYBOX.Parent = Frame
+SKYBOX.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SKYBOX.BorderColor3 = Color3.fromRGB(196, 40, 28)
+SKYBOX.BorderSizePixel = 3
+SKYBOX.Position = UDim2.new(0.68, 0, 0.25, 0)
+SKYBOX.Size = UDim2.new(0, 92, 0, 30)
+SKYBOX.Font = Enum.Font.SourceSans
+SKYBOX.Text = "SKYBOX"
+SKYBOX.TextColor3 = Color3.fromRGB(242, 243, 243)
+SKYBOX.TextScaled = true
+SKYBOX.TextSize = 14.000
+SKYBOX.TextWrapped = true
+SKYBOX.MouseButton1Down:connect(function()
+s = Instance.new("Sky")
+		s.Name = "SKY"
+		s.SkyboxBk = "http://www.roblox.com/Asset/?id=15710230657"
+		s.SkyboxDn = "http://www.roblox.com/Asset/?id=15710230657"
+		s.SkyboxFt = "http://www.roblox.com/Asset/?id=15710230657"
+		s.SkyboxLf = "http://www.roblox.com/Asset/?id=15710230657"
+		s.SkyboxRt = "http://www.roblox.com/Asset/?id=15710230657"
+                s.SkyboxUp = "http://www.roblox.com/Asset/?id=15710230657"
+                s.Parent = game.Lighting
+wait()
 end)
 
 -- Scripts :
