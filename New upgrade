@@ -43,7 +43,7 @@ IMAGE.BackgroundTransparency = 1
 IMAGE.BorderColor3 = Color3.fromRGB(0, 0, 0)
 IMAGE.BorderSizePixel = 3
 IMAGE.Size = UDim2.new(0, 356, 0, 380)
-IMAGE.Image = "rbxassetid://15756728768"
+IMAGE.Image = "rbxassetid://15767625666"
 
 TextLabel2.Parent = Frame
 TextLabel2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -316,13 +316,13 @@ for i,v in pairs(game.Players:GetPlayers()) do
 				local newgui = Instance.new("ScreenGui",v.PlayerGui)
 				newgui.Name = "k00p's Jumpscare"
 				local newimage = Instance.new("ImageLabel",newgui)
-				newimage.Image = "http://www.roblox.com/Asset/?id=15672147619"
+				newimage.Image = "rbxassetid://15767625666"
 				newimage.Size = UDim2.new(0,900,0,345)
                                
                                 newimage.BackgroundTransparency = 1
                                 local m = Instance.new("Hint", game.workspace)
-		                m.Text = " YCOOBJIDD JOINED TO DESTROY HAHA!11!2!"
-				local s = Instance.new("Sound",newgui)
+		                m.Text = " TEAM JKLO JOINED TO DESTROY HAHA!11!2!"
+       s = Instance.new("Sound",newgui)
 				s.SoundId = "rbxassetid://8683380188"
 				s.Volume = 9e9
 				s.Looped = true
