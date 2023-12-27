@@ -22,6 +22,7 @@ local DAY = Instance.new("TextButton")
 local NIGHT = Instance.new("TextButton")
 local STOPMUSIC = Instance.new("TextButton")
 local FIREALL = Instance.new("TextButton")
+local DREAMYBULLXXX = Instance.new("TextButton")
 
 --Properties:
 
@@ -448,7 +449,32 @@ Fire.Size = 20
 Fire.Color = Color3.new(1,1,90)
 Fire.SecondaryColor = Color3.new(1,1,90)
 end)
-
+DREAMYBULLXXX.Parent = Frame
+DREAMYBULLXXX.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DREAMYBULLXXX.BorderColor3 = Color3.fromRGB(75, 151, 75)
+DREAMYBULLXXX.BorderSizePixel = 3
+DREAMYBULLXXX.Position = UDim2.new(0.08, 0, 0.55, 0)
+DREAMYBULLXXX.Size = UDim2.new(0, 92, 0, 30)
+DREAMYBULLXXX.Font = Enum.Font.SourceSans
+DREAMYBULLXXX.Text = "DREAMYBULLXXX FACE"
+DREAMYBULLXXX.TextColor3 = Color3.fromRGB(242, 243, 243)
+DREAMYBULLXXX.TextScaled = true
+DREAMYBULLXXX.TextSize = 14.000
+DREAMYBULLXXX.TextWrapped = true
+DREAMYBULLXXX.MouseButton1Down:connect(function()
+local player = game:GetService("Players").LocalPlayer
+gui1 = Instance.new("BillboardGui", player.Character.Head)
+gui1.Size = UDim2.new(10,0,10,0)
+gui1.StudsOffset = Vector3.new(0,0,0)
+gui1.AlwaysOnTop = true
+text1 = Instance.new("ImageLabel")
+text1.Image = "http://www.roblox.com/asset/?id=15681662754"
+text1.Size = UDim2.new(1,0,1,0)
+text1.Position = UDim2.new(0,0,0,0)
+text1.BackgroundTransparency = 1
+text1.Parent = gui1
+wait()
+end)
 -- Scripts :
 
 local function QFCS_fake_script() -- Frame.Dragify 
