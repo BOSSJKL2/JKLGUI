@@ -6,6 +6,7 @@
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local IMAGE = Instance.new("ImageLabel")
+local ScrollingFrame = Instance.new("ScrollingFrame")
 local TextLabel2 = Instance.new("TextLabel")
 local R6AVATAR = Instance.new("TextButton")
 local RESETAVATAR = Instance.new("TextButton")
@@ -44,6 +45,13 @@ IMAGE.BorderColor3 = Color3.fromRGB(0, 0, 0)
 IMAGE.BorderSizePixel = 3
 IMAGE.Size = UDim2.new(0, 356, 0, 433)
 IMAGE.Image = "rbxassetid://15767625666"
+
+ScrollingFrame.Parent = Frame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundTransparency = 1
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+ScrollingFrame.Position = UDim2.new(0.02, 0, 0.08, 0)
+ScrollingFrame.Size = UDim2.new(0, 343, 0, 420)
 
 TextLabel2.Parent = Frame
 TextLabel2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
