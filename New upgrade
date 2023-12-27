@@ -21,6 +21,9 @@ local PHONk = Instance.new("TextButton")
 local DAY = Instance.new("TextButton")
 local NIGHT = Instance.new("TextButton")
 local STOPMUSIC = Instance.new("TextButton")
+local BANI = Instance.new("ImageLabel")
+local ANTIBAN = Instance.new("TextButton")
+local BANII = Instance.new("ImageLabel")
 
 --Properties:
 
