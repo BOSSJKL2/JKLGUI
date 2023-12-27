@@ -22,7 +22,7 @@ local DAY = Instance.new("TextButton")
 local NIGHT = Instance.new("TextButton")
 local STOPMUSIC = Instance.new("TextButton")
 local BANI = Instance.new("ImageLabel")
-local ANTIBAN = Instance.new("TextButton")
+local ANTIKICK = Instance.new("TextButton")
 local BANII = Instance.new("ImageLabel")
 
 --Properties:
@@ -431,6 +431,35 @@ for i,v in pairs(workspace:GetDescendants()) do
         end
     end
 end)
+BANI.Parent = Frame
+BANI.BackgroundColor3 = Color3.fromRGB(174, 167, 255)
+BANI.BackgroundTransparency = 1
+BANI.Position = UDim2.new(0.08, 0, 0.55, 0)
+BANI.Size = UDim2.new(0, 356, 0, 380)
+BANI.Image = "rbxassetid://15756728768"
+
+ANTIKICK.Parent = Frame
+ANTIKICK.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ANTIKICK.BorderColor3 = Color3.fromRGB(196, 40, 28)
+ANTIKICK.BorderSizePixel = 3
+ANTIKICK.Position = UDim2.new(0.38, 0, 0.55, 0)
+ANTIKICK.Size = UDim2.new(0, 92, 0, 30)
+ANTIKICK.Font = Enum.Font.SourceSans
+ANTIKICK.Text = "ANTI KICK"
+ANTIKICK.TextColor3 = Color3.fromRGB(242, 243, 243)
+ANTIKICK.TextScaled = true
+ANTIKICK.TextSize = 14.000
+ANTIKICK.TextWrapped = true
+ANTIKICK.MouseButton1Down:connect(function()
+
+end)
+BANII.Parent = Frame
+BANII.BackgroundColor3 = Color3.fromRGB(174, 167, 255)
+BANII.BackgroundTransparency = 1
+BANII.Position = UDim2.new(0.68, 0, 0.55, 0)
+BANII.Size = UDim2.new(0, 356, 0, 380)
+BANII.Image = "rbxassetid://15756728768"
+
 -- Scripts :
 
 local function QFCS_fake_script() -- Frame.Dragify 
