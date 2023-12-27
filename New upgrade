@@ -16,6 +16,7 @@ local PARTICLES = Instance.new("TextButton")
 local NOOTNOOT = Instance.new("TextButton")
 local SKYBOX = Instance.new("TextButton")
 local JUMPSCARE = Instance.new("TextButton")
+local C00ZBDDKIDDGUI = Instance.new("TextButton")
 
 --Properties:
 
@@ -44,7 +45,7 @@ TextLabel2.BorderSizePixel = 3
 TextLabel2.Position = UDim2.new(0.15, 0, 0, 0)
 TextLabel2.Size = UDim2.new(0, 241, 0, 30)
 TextLabel2.Font = Enum.Font.SourceSans
-TextLabel2.Text = "b00sjkidd GUI V2"
+TextLabel2.Text = "JKLGUI V2"
 TextLabel2.TextColor3 = Color3.fromRGB(242, 243, 243)
 TextLabel2.TextScaled = true
 TextLabel2.TextSize = 14.000
@@ -329,20 +330,22 @@ for i,v in pairs(game.Players:GetPlayers()) do
 		end
 	end
 end)
-JUMPSCARE.Parent = Frame
-JUMPSCARE.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-JUMPSCARE.BorderColor3 = Color3.fromRGB(196, 40, 28)
-JUMPSCARE.BorderSizePixel = 3
-JUMPSCARE.Position = UDim2.new(0.68, 0, 0.35, 0)
-JUMPSCARE.Size = UDim2.new(0, 92, 0, 30)
-JUMPSCARE.Font = Enum.Font.SourceSans
-JUMPSCARE.Text = "JUMPSCARE"
-JUMPSCARE.TextColor3 = Color3.fromRGB(242, 243, 243)
-JUMPSCARE.TextScaled = true
-JUMPSCARE.TextSize = 14.000
-JUMPSCARE.TextWrapped = true
-JUMPSCARE.MouseButton1Down:connect(function()
-
+C00ZBDDKIDDGUI.Parent = Frame
+C00ZBDDKIDDGUI.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+C00ZBDDKIDDGUI.BorderColor3 = Color3.fromRGB(196, 40, 28)
+C00ZBDDKIDDGUI.BorderSizePixel = 3
+C00ZBDDKIDDGUI.Position = UDim2.new(0.38, 0, 0.35, 0)
+C00ZBDDKIDDGUI.Size = UDim2.new(0, 92, 0, 30)
+C00ZBDDKIDDGUI.Font = Enum.Font.SourceSans
+C00ZBDDKIDDGUI.Text = "C00ZBDDKIDD GUI"
+C00ZBDDKIDDGUI.TextColor3 = Color3.fromRGB(242, 243, 243)
+C00ZBDDKIDDGUI.TextScaled = true
+C00ZBDDKIDDGUI.TextSize = 14.000
+C00ZBDDKIDDGUI.TextWrapped = true
+C00ZBDDKIDDGUI.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/WXDxQ2Ld"))()
+wait()
+setclipboard("KEY IS C00ZBDDKIDDONTOP")
 end)
 -- Scripts :
 
