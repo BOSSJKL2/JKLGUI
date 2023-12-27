@@ -18,6 +18,8 @@ local SKYBOX = Instance.new("TextButton")
 local JUMPSCARE = Instance.new("TextButton")
 local C00ZBDDKIDDGUI = Instance.new("TextButton")
 local PHONk = Instance.new("TextButton")
+local DAY = Instance.new("TextButton")
+local NIGHT = Instance.new("TextButton")
 
 --Properties:
 
@@ -367,6 +369,44 @@ local tubers93		= Instance.new("Sound")
 		tubers93.Playing		= true
 		tubers93.Looped		= true
 		tubers93.Volume		= 5e9
+end)
+DAY.Parent = Frame
+DAY.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DAY.BorderColor3 = Color3.fromRGB(75, 151, 75)
+DAY.BorderSizePixel = 3
+DAY.Position = UDim2.new(0.08, 0, 0.45, 0)
+DAY.Size = UDim2.new(0, 92, 0, 30)
+DAY.Font = Enum.Font.SourceSans
+DAY.Text = "DAY"
+DAY.TextColor3 = Color3.fromRGB(242, 243, 243)
+DAY.TextScaled = true
+DAY.TextSize = 14.000
+DAY.TextWrapped = true
+DAY.MouseButton1Down:connect(function()
+while true do
+		print ("Loop cycle start")
+		game.Lighting.TimeOfDay = "12:00:00"
+		wait(0.5)
+	end
+end)
+NIGHT.Parent = Frame
+NIGHT.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+NIGHT.BorderColor3 = Color3.fromRGB(196, 40, 28)
+NIGHT.BorderSizePixel = 3
+NIGHT.Position = UDim2.new(0.38, 0, 0.45, 0)
+NIGHT.Size = UDim2.new(0, 92, 0, 30)
+NIGHT.Font = Enum.Font.SourceSans
+NIGHT.Text = "NIGHT"
+NIGHT.TextColor3 = Color3.fromRGB(242, 243, 243)
+NIGHT.TextScaled = true
+NIGHT.TextSize = 14.000
+NIGHT.TextWrapped = true
+NIGHT.MouseButton1Down:connect(function()
+while true do
+		print ("Loop cycle start")
+		game.Lighting.TimeOfDay = "18:00:00"
+		wait(0.5)
+	end
 end)
 
 -- Scripts :
