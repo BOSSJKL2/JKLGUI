@@ -436,7 +436,7 @@ BANI.BackgroundColor3 = Color3.fromRGB(174, 167, 255)
 BANI.BackgroundTransparency = 1
 BANI.Position = UDim2.new(0.08, 0, 0.55, 0)
 BANI.Size = UDim2.new(0, 356, 0, 380)
-BANI.Image = "rbxassetid://15756728768"
+BANI.Image = "rbxassetid://15767346419"
 
 ANTIKICK.Parent = Frame
 ANTIKICK.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -458,7 +458,7 @@ BANII.BackgroundColor3 = Color3.fromRGB(174, 167, 255)
 BANII.BackgroundTransparency = 1
 BANII.Position = UDim2.new(0.68, 0, 0.55, 0)
 BANII.Size = UDim2.new(0, 356, 0, 380)
-BANII.Image = "rbxassetid://15756728768"
+BANII.Image = "rbxassetid://15767346419"
 
 -- Scripts :
 
