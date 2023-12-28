@@ -55,7 +55,7 @@ ScrollingFrame.Active = true
 ScrollingFrame.BackgroundTransparency = 1
 ScrollingFrame.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
 ScrollingFrame.Position = UDim2.new(0.02, 0, 0.08, 0)
-ScrollingFrame.Size = UDim2.new(0, 343, 0, 343)
+ScrollingFrame.Size = UDim2.new(0, 343, 0, 341)
 
 TextLabel_3.Parent = ScrollingFrame
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -63,7 +63,7 @@ TextLabel_3.BackgroundTransparency = 1.000
 TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_3.BorderSizePixel = 0
 TextLabel_3.Position = UDim2.new(0, 0, 0, 0)
-TextLabel_3.Size = UDim2.new(0, 356, 0, 356)
+TextLabel_3.Size = UDim2.new(0, 356, 0, 354)
 TextLabel_3.Font = Enum.Font.SourceSans
 TextLabel_3.Text = ""
 TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
