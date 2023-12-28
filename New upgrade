@@ -362,7 +362,7 @@ C00ZBDDKIDDGUI.TextWrapped = true
 C00ZBDDKIDDGUI.MouseButton1Down:connect(function()
 loadstring(game:HttpGet("https://pastebin.com/raw/WXDxQ2Ld"))()
 wait()
-setclipboard("KEY IS C00ZBDDKIDDONTOP")
+setclipboard("KEY IS C00ZBDDKIDDISBETTER")
 end)
 PHONk.Parent = Frame
 PHONk.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
