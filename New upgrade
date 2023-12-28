@@ -39,14 +39,14 @@ Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderColor3 = Color3.fromRGB(196, 40, 28)
 Frame.BorderSizePixel = 3
 Frame.Position = UDim2.new(0.536656916, 0, 0.220883533, 0)
-Frame.Size = UDim2.new(0, 356, 0, 433)
+Frame.Size = UDim2.new(0, 356, 0, 356)
 
 IMAGE.Parent = Frame
 IMAGE.BackgroundColor3 = Color3.fromRGB(174, 167, 255)
 IMAGE.BackgroundTransparency = 1
 IMAGE.BorderColor3 = Color3.fromRGB(0, 0, 0)
 IMAGE.BorderSizePixel = 3
-IMAGE.Size = UDim2.new(0, 356, 0, 433)
+IMAGE.Size = UDim2.new(0, 356, 0, 356)
 IMAGE.Image = "rbxassetid://15767625666"
 
 ScrollingFrame.Parent = Frame
@@ -54,7 +54,7 @@ ScrollingFrame.Active = true
 ScrollingFrame.BackgroundTransparency = 1
 ScrollingFrame.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
 ScrollingFrame.Position = UDim2.new(0.02, 0, 0.08, 0)
-ScrollingFrame.Size = UDim2.new(0, 343, 0, 420)
+ScrollingFrame.Size = UDim2.new(0, 343, 0, 343)
 
 TextLabel_3.Parent = ScrollingFrame
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -62,7 +62,7 @@ TextLabel_3.BackgroundTransparency = 1.000
 TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_3.BorderSizePixel = 0
 TextLabel_3.Position = UDim2.new(0, 0, 0, 0)
-TextLabel_3.Size = UDim2.new(0, 356, 0, 433)
+TextLabel_3.Size = UDim2.new(0, 356, 0, 356)
 TextLabel_3.Font = Enum.Font.SourceSans
 TextLabel_3.Text = ""
 TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -514,12 +514,12 @@ DECALSPAM1.TextWrapped = true
 DECALSPAM1.MouseButton1Down:connect(function()
 s = Instance.new("Sky")
 s.Name = "Skybox"
-s.SkyboxBk = "http://www.roblox.com/asset/?id=15767625666"
-s.SkyboxDn = "http://www.roblox.com/asset/?id=15767625666"
-s.SkyboxFt = "http://www.roblox.com/asset/?id=15767625666"
-s.SkyboxLf = "http://www.roblox.com/asset/?id=15767625666"
-s.SkyboxRt = "http://www.roblox.com/asset/?id=15767625666"
-s.SkyboxUp = "http://www.roblox.com/asset/?id=15767625666"
+s.SkyboxBk = "http://www.roblox.com/asset/?id=15778692364"
+s.SkyboxDn = "http://www.roblox.com/asset/?id=15778692364"
+s.SkyboxFt = "http://www.roblox.com/asset/?id=15778692364"
+s.SkyboxLf = "http://www.roblox.com/asset/?id=15778692364"
+s.SkyboxRt = "http://www.roblox.com/asset/?id=15778692364"
+s.SkyboxUp = "http://www.roblox.com/asset/?id=15778692364"
         s.Parent = game.Lighting
 		local ID = 15769947250
 		function spamDecal(v)
