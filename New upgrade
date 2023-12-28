@@ -27,6 +27,7 @@ local FIREALL = Instance.new("TextButton")
 local DREAMYBULLXXX = Instance.new("TextButton")
 local DECALSPAM1 = Instance.new("TextButton")
 local JO1TAR0GUI = Instance.new("TextButton")
+local ARABGUI = Instance.new("TextButton")
 
 --Properties:
 
@@ -574,6 +575,21 @@ JO1TAR0GUI.TextScaled = true
 JO1TAR0GUI.TextSize = 14.000
 JO1TAR0GUI.TextWrapped = true
 JO1TAR0GUI.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/JOTAR0GUI/main/JO1TAR0GUI"))()
+end)
+ARABGUI.Parent = TextLabel_3
+ARABGUI.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ARABGUI.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ARABGUI.BorderSizePixel = 3
+ARABGUI.Position = UDim2.new(0.38, 0, 0.65, 0)
+ARABGUI.Size = UDim2.new(0, 92, 0, 30)
+ARABGUI.Font = Enum.Font.SourceSans
+ARABGUI.Text = "BOSSJKLO'S ARAB GUI"
+ARABGUI.TextColor3 = Color3.fromRGB(242, 243, 243)
+ARABGUI.TextScaled = true
+ARABGUI.TextSize = 14.000
+ARABGUI.TextWrapped = true
+ARABGUI.MouseButton1Down:connect(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/JOTAR0GUI/main/JO1TAR0GUI"))()
 end)
 
