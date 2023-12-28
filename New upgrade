@@ -28,6 +28,7 @@ local DREAMYBULLXXX = Instance.new("TextButton")
 local DECALSPAM1 = Instance.new("TextButton")
 local JO1TAR0GUI = Instance.new("TextButton")
 local ARABGUI = Instance.new("TextButton")
+local K00PGUI = Instance.new("TextButton")
 
 --Properties:
 
@@ -591,6 +592,21 @@ ARABGUI.TextSize = 14.000
 ARABGUI.TextWrapped = true
 ARABGUI.MouseButton1Down:connect(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/Arab-gui/main/Arab%20gui"))()
+end)
+K00PGUI.Parent = TextLabel_3
+K00PGUI.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+K00PGUI.BorderColor3 = Color3.fromRGB(0, 0, 0)
+K00PGUI.BorderSizePixel = 3
+K00PGUI.Position = UDim2.new(0.68, 0, 0.65, 0)
+K00PGUI.Size = UDim2.new(0, 92, 0, 30)
+K00PGUI.Font = Enum.Font.SourceSans
+K00PGUI.Text = "K00PKIDD GUI V8"
+K00PGUI.TextColor3 = Color3.fromRGB(242, 243, 243)
+K00PGUI.TextScaled = true
+K00PGUI.TextSize = 14.000
+K00PGUI.TextWrapped = true
+K00PGUI.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/C00lHamoot/K00pgui/a50a7131568adf4337053c428733c2eaf308ac6a/K00pgui"))()
 end)
 
 -- Scripts :
