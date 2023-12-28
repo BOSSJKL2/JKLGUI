@@ -7,6 +7,7 @@ local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local IMAGE = Instance.new("ImageLabel")
 local ScrollingFrame = Instance.new("ScrollingFrame")
+local TextLabel_3 = Instance.new("TextLabel")
 local TextLabel2 = Instance.new("TextLabel")
 local R6AVATAR = Instance.new("TextButton")
 local RESETAVATAR = Instance.new("TextButton")
@@ -54,6 +55,18 @@ ScrollingFrame.BackgroundTransparency = 1
 ScrollingFrame.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
 ScrollingFrame.Position = UDim2.new(0.02, 0, 0.08, 0)
 ScrollingFrame.Size = UDim2.new(0, 343, 0, 420)
+
+TextLabel_3.Parent = ScrollingFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0, 0, 0, 0)
+TextLabel_3.Size = UDim2.new(0, 356, 0, 433)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = ""
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 14.000
 
 TextLabel2.Parent = Frame
 TextLabel2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -103,7 +116,7 @@ end)
 
 -- PAGE1 :
 
-DISCO.Parent = Frame
+DISCO.Parent = TextLabel_3
 DISCO.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 DISCO.BorderColor3 = Color3.fromRGB(255, 255, 0)
 DISCO.BorderSizePixel = 3
@@ -131,7 +144,7 @@ local Lighting = game:GetService("Lighting")
 			Counter += 0.01
 		end
 end)
-HINTGAME.Parent = Frame
+HINTGAME.Parent = TextLabel_3
 HINTGAME.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 HINTGAME.BorderColor3 = Color3.fromRGB(255, 255, 0)
 HINTGAME.BorderSizePixel = 3
@@ -147,7 +160,7 @@ HINTGAME.MouseButton1Down:connect(function()
 local m = Instance.new("Hint", game.workspace)
 m.Text = "TEAM JKLO JOINED TO DAY!11!2!☣️🔥"
 end)
-BALLRAINING.Parent = Frame
+BALLRAINING.Parent = TextLabel_3
 BALLRAINING.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 BALLRAINING.BorderColor3 = Color3.fromRGB(255, 255, 0)
 BALLRAINING.BorderSizePixel = 3
@@ -227,7 +240,7 @@ while true do
 			doom.Parent = game.Workspace
 		end
 end)
-PARTICLES.Parent = Frame
+PARTICLES.Parent = TextLabel_3
 PARTICLES.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 PARTICLES.BorderColor3 = Color3.fromRGB(196, 40, 28)
 PARTICLES.BorderSizePixel = 3
@@ -268,7 +281,7 @@ if particle == true then
 	end
 end
 end)
-NOOTNOOT.Parent = Frame
+NOOTNOOT.Parent = TextLabel_3
 NOOTNOOT.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 NOOTNOOT.BorderColor3 = Color3.fromRGB(203, 132, 66)
 NOOTNOOT.BorderSizePixel = 3
@@ -283,7 +296,7 @@ NOOTNOOT.TextWrapped = true
 NOOTNOOT.MouseButton1Down:connect(function()
 loadstring(game:HttpGet(('https://pastebin.com/raw/EXCYgEzv'),true))()
 end)
-SKYBOX.Parent = Frame
+SKYBOX.Parent = TextLabel_3
 SKYBOX.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 SKYBOX.BorderColor3 = Color3.fromRGB(196, 40, 28)
 SKYBOX.BorderSizePixel = 3
@@ -307,7 +320,7 @@ s = Instance.new("Sky")
                 s.Parent = game.Lighting
 wait()
 end)
-JUMPSCARE.Parent = Frame
+JUMPSCARE.Parent = TextLabel_3
 JUMPSCARE.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 JUMPSCARE.BorderColor3 = Color3.fromRGB(196, 40, 28)
 JUMPSCARE.BorderSizePixel = 3
@@ -347,7 +360,7 @@ for i,v in pairs(game.Players:GetPlayers()) do
 		end
 	end
 end)
-C00ZBDDKIDDGUI.Parent = Frame
+C00ZBDDKIDDGUI.Parent = TextLabel_3
 C00ZBDDKIDDGUI.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 C00ZBDDKIDDGUI.BorderColor3 = Color3.fromRGB(196, 40, 28)
 C00ZBDDKIDDGUI.BorderSizePixel = 3
@@ -364,7 +377,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/WXDxQ2Ld"))()
 wait()
 setclipboard("KEY IS C00ZBDDKIDDISBETTER")
 end)
-PHONk.Parent = Frame
+PHONk.Parent = TextLabel_3
 PHONk.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 PHONk.BorderColor3 = Color3.fromRGB(196, 40, 28)
 PHONk.BorderSizePixel = 3
@@ -384,7 +397,7 @@ local tubers93		= Instance.new("Sound")
 		tubers93.Looped		= true
 		tubers93.Volume		= 5e9
 end)
-DAY.Parent = Frame
+DAY.Parent = TextLabel_3
 DAY.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 DAY.BorderColor3 = Color3.fromRGB(75, 151, 75)
 DAY.BorderSizePixel = 3
@@ -403,7 +416,7 @@ while true do
 		wait(0.5)
 	end
 end)
-NIGHT.Parent = Frame
+NIGHT.Parent = TextLabel_3
 NIGHT.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 NIGHT.BorderColor3 = Color3.fromRGB(196, 40, 28)
 NIGHT.BorderSizePixel = 3
@@ -422,7 +435,7 @@ while true do
 		wait(0.5)
 	end
 end)
-STOPMUSIC.Parent = Frame
+STOPMUSIC.Parent = TextLabel_3
 STOPMUSIC.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 STOPMUSIC.BorderColor3 = Color3.fromRGB(75, 151, 75)
 STOPMUSIC.BorderSizePixel = 3
@@ -441,7 +454,7 @@ for i,v in pairs(workspace:GetDescendants()) do
         end
     end
 end)
-FIREALL.Parent = Frame
+FIREALL.Parent = TextLabel_3
 FIREALL.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 FIREALL.BorderColor3 = Color3.fromRGB(75, 151, 75)
 FIREALL.BorderSizePixel = 3
@@ -460,7 +473,7 @@ Fire.Size = 20
 Fire.Color = Color3.new(1,1,90)
 Fire.SecondaryColor = Color3.new(1,1,90)
 end)
-DREAMYBULLXXX.Parent = Frame
+DREAMYBULLXXX.Parent = TextLabel_3
 DREAMYBULLXXX.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 DREAMYBULLXXX.BorderColor3 = Color3.fromRGB(196, 40, 28)
 DREAMYBULLXXX.BorderSizePixel = 3
@@ -486,7 +499,7 @@ text1.BackgroundTransparency = 1
 text1.Parent = gui1
 wait()
 end)
-DECALSPAM1.Parent = Frame
+DECALSPAM1.Parent = TextLabel_3
 DECALSPAM1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 DECALSPAM1.BorderColor3 = Color3.fromRGB(196, 40, 28)
 DECALSPAM1.BorderSizePixel = 3
@@ -548,7 +561,7 @@ s.SkyboxUp = "http://www.roblox.com/asset/?id=15767625666"
 		end	
 decalspam(ID)
 end)
-JO1TAR0GUI.Parent = Frame
+JO1TAR0GUI.Parent = TextLabel_3
 JO1TAR0GUI.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 JO1TAR0GUI.BorderColor3 = Color3.fromRGB(0, 0, 0)
 JO1TAR0GUI.BorderSizePixel = 3
