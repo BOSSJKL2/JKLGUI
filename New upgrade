@@ -590,7 +590,7 @@ ARABGUI.TextScaled = true
 ARABGUI.TextSize = 14.000
 ARABGUI.TextWrapped = true
 ARABGUI.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/JOTAR0GUI/main/JO1TAR0GUI"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/Arab-gui/main/Arab%20gui"))()
 end)
 
 -- Scripts :
