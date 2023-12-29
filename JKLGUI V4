@@ -684,7 +684,7 @@ s.SkyboxLf = "http://www.roblox.com/asset/?id=15767625666"
 s.SkyboxRt = "http://www.roblox.com/asset/?id=15767625666"
 s.SkyboxUp = "http://www.roblox.com/asset/?id=15767625666"
         s.Parent = game.Lighting
-		local ID = 15769947250
+		local ID = 15767625666
 		function spamDecal(v)
 			if v:IsA("Part") then
 				for i = 0, 5 do
