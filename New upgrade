@@ -14,6 +14,7 @@ local RESETAVATAR = Instance.new("TextButton")
 local K00PGUI = Instance.new("TextButton")
 local AVATAR = Instance.new("TextButton")
 local NOGRAVITY = Instance.new("TextButton")
+local UNANCHORED = Instance.new("TextButton")
 local DISCO = Instance.new("TextButton")
 local HINTGAME = Instance.new("TextButton")
 local BALLRAINING = Instance.new("TextButton")
@@ -170,6 +171,40 @@ NOGRAVITY.TextSize = 14.000
 NOGRAVITY.TextWrapped = true
 NOGRAVITY.MouseButton1Down:connect(function()
 loadstring(game:HttpGet("https://pastebin.com/raw/xy7Rnezj"))()
+end)
+UNANCHORED.Parent = Frame
+UNANCHORED.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+UNANCHORED.BorderColor3 = Color3.fromRGB(242, 243, 243)
+UNANCHORED.BorderSizePixel = 3
+UNANCHORED.Position = UDim2.new(1, 0, 0.75, 0)
+UNANCHORED.Rotation = 50
+UNANCHORED.Size = UDim2.new(0, 92, 0, 30)
+UNANCHORED.Font = Enum.Font.SourceSans
+UNANCHORED.Text = "UNANCHORED"
+UNANCHORED.TextColor3 = Color3.fromRGB(242, 243, 243)
+UNANCHORED.TextScaled = true
+UNANCHORED.TextSize = 14.000
+UNANCHORED.TextWrapped = true
+UNANCHORED.MouseButton1Down:connect(function()
+		for i,v in pairs(game.Workspace:GetDescendants()) do
+			if v:IsA("BasePart") then	
+				v.Anchored = false
+			end
+		end
+	
+	
+		for i,v in pairs(game.ReplicatedStorage:GetDescendants()) do
+			if v:IsA("BasePart") then
+				v.Anchored = false
+			end
+		end
+		
+	
+		for i,v in pairs(game.ReplicatedFirst:GetDescendants()) do
+			if v:IsA("BasePart") then
+				v.Anchored = false
+			end
+		end
 end)
 
 -- PAGE1 :
