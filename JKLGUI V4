@@ -1,10 +1,3 @@
-game.StarterGui:SetCore("DevConsoleVisible", true)
-wait(0)
-while wait(0) do
-warn("BossJKLO HAS DESTROYED YOUR Account HAHAHAHA!$!$!$")
-print("BossJKLO HAS DESTROYED YOUR Account HAHAHAHA!$!$!$")
-end
-
 -- Gui to Lua
 -- Version: 3.2
 
@@ -22,6 +15,7 @@ local K00PGUI = Instance.new("TextButton")
 local AVATAR = Instance.new("TextButton")
 local NOGRAVITY = Instance.new("TextButton")
 local UNANCHORED = Instance.new("TextButton")
+local CONSOLEDES = Instance.new("TextButton")
 local DISCO = Instance.new("TextButton")
 local HINTGAME = Instance.new("TextButton")
 local BALLRAINING = Instance.new("TextButton")
@@ -221,7 +215,27 @@ UNANCHORED.MouseButton1Down:connect(function()
 			end
 		end
 end)
-
+CONSOLEDES.Parent = Frame
+CONSOLEDES.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CONSOLEDES.BorderColor3 = Color3.fromRGB(242, 243, 243)
+CONSOLEDES.BorderSizePixel = 3
+CONSOLEDES.Position = UDim2.new(1, 0, 0.35, 0)
+CONSOLEDES.Rotation = 10
+CONSOLEDES.Size = UDim2.new(0, 92, 0, 30)
+CONSOLEDES.Font = Enum.Font.SourceSans
+CONSOLEDES.Text = "CONSOLE DESTROYED"
+CONSOLEDES.TextColor3 = Color3.fromRGB(242, 243, 243)
+CONSOLEDES.TextScaled = true
+CONSOLEDES.TextSize = 14.000
+CONSOLEDES.TextWrapped = true
+CONSOLEDES.MouseButton1Down:connect(function()
+game.StarterGui:SetCore("DevConsoleVisible", true)
+wait(0)
+while wait(0) do
+warn("BossJKLO HAS DESTROYED YOUR Account HAHAHAHA!$!$!$")
+print("BossJKLO HAS DESTROYED YOUR Account HAHAHAHA!$!$!$")
+end
+end)
 -- PAGE1 :
 
 DISCO.Parent = TextLabel_3
