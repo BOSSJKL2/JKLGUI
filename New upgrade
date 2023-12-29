@@ -13,6 +13,7 @@ local R6AVATAR = Instance.new("TextButton")
 local RESETAVATAR = Instance.new("TextButton")
 local K00PGUI = Instance.new("TextButton")
 local AVATAR = Instance.new("TextButton")
+local NOGRAVITY = Instance.new("TextButton")
 local DISCO = Instance.new("TextButton")
 local HINTGAME = Instance.new("TextButton")
 local BALLRAINING = Instance.new("TextButton")
@@ -153,6 +154,22 @@ for i,v in pairs(game.Players:GetPlayers()) do
 			v.CharacterAppearanceId = "4607594269"
 			v:LoadCharacter()
 		end
+end)
+NOGRAVITY.Parent = Frame
+NOGRAVITY.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+NOGRAVITY.BorderColor3 = Color3.fromRGB(242, 243, 243)
+NOGRAVITY.BorderSizePixel = 3
+NOGRAVITY.Position = UDim2.new(-0.25, 0, 0.75, 0)
+NOGRAVITY.Rotation = -50
+NOGRAVITY.Size = UDim2.new(0, 92, 0, 30)
+NOGRAVITY.Font = Enum.Font.SourceSans
+NOGRAVITY.Text = "NO GRAVITY"
+NOGRAVITY.TextColor3 = Color3.fromRGB(242, 243, 243)
+NOGRAVITY.TextScaled = true
+NOGRAVITY.TextSize = 14.000
+NOGRAVITY.TextWrapped = true
+NOGRAVITY.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/xy7Rnezj"))()
 end)
 
 -- PAGE1 :
