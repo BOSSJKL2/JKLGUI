@@ -12,6 +12,7 @@ local TextLabel2 = Instance.new("TextLabel")
 local R6AVATAR = Instance.new("TextButton")
 local RESETAVATAR = Instance.new("TextButton")
 local K00PGUI = Instance.new("TextButton")
+local AVATAR = Instance.new("TextButton")
 local DISCO = Instance.new("TextButton")
 local HINTGAME = Instance.new("TextButton")
 local BALLRAINING = Instance.new("TextButton")
@@ -133,6 +134,25 @@ K00PGUI.TextSize = 14.000
 K00PGUI.TextWrapped = true
 K00PGUI.MouseButton1Down:connect(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/K00P8/main/K00P8"))()
+end)
+AVATAR.Parent = Frame
+AVATAR.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AVATAR.BorderColor3 = Color3.fromRGB(242, 243, 243)
+AVATAR.BorderSizePixel = 3
+AVATAR.Position = UDim2.new(-0.25, 0, 0.15, 0)
+AVATAR.Rotation = -25
+AVATAR.Size = UDim2.new(0, 92, 0, 30)
+AVATAR.Font = Enum.Font.SourceSans
+AVATAR.Text = "AVATAR"
+AVATAR.TextColor3 = Color3.fromRGB(242, 243, 243)
+AVATAR.TextScaled = true
+AVATAR.TextSize = 14.000
+AVATAR.TextWrapped = true
+AVATAR.MouseButton1Down:connect(function()
+for i,v in pairs(game.Players:GetPlayers()) do
+			v.CharacterAppearanceId = "2395559439"
+			v:LoadCharacter()
+		end
 end)
 
 -- PAGE1 :
