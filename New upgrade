@@ -145,16 +145,21 @@ AVATAR.Position = UDim2.new(-0.25, 0, 0.15, 0)
 AVATAR.Rotation = -25
 AVATAR.Size = UDim2.new(0, 92, 0, 30)
 AVATAR.Font = Enum.Font.SourceSans
-AVATAR.Text = "AVATAR"
+AVATAR.Text = "RANDOM COLOUR"
 AVATAR.TextColor3 = Color3.fromRGB(242, 243, 243)
 AVATAR.TextScaled = true
 AVATAR.TextSize = 14.000
 AVATAR.TextWrapped = true
 AVATAR.MouseButton1Down:connect(function()
-for i,v in pairs(game.Players:GetPlayers()) do
-			v.CharacterAppearanceId = "4607594269"
-			v:LoadCharacter()
-		end
+while true do
+wait(0.5)
+ye = game.Workspace[game.Players.LocalPlayer.Name]:GetChildren()
+for i,v in pairs(ye) do
+if v.className == "Part" then
+v.BrickColor = BrickColor.Random()
+end
+end
+end
 end)
 NOGRAVITY.Parent = Frame
 NOGRAVITY.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
