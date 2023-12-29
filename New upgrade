@@ -150,7 +150,7 @@ AVATAR.TextSize = 14.000
 AVATAR.TextWrapped = true
 AVATAR.MouseButton1Down:connect(function()
 for i,v in pairs(game.Players:GetPlayers()) do
-			v.CharacterAppearanceId = "2395559439"
+			v.CharacterAppearanceId = "4607594269"
 			v:LoadCharacter()
 		end
 end)
