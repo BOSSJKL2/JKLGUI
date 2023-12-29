@@ -29,7 +29,7 @@ local BYPASS1 = Instance.new("TextButton")
 local DAY = Instance.new("TextButton")
 local NIGHT = Instance.new("TextButton")
 local STOPMUSIC = Instance.new("TextButton")
-local FIREALL = Instance.new("TextButton")
+local SKYBOX2 = Instance.new("TextButton")
 local DREAMYBULLXXX = Instance.new("TextButton")
 local DECALSPAM1 = Instance.new("TextButton")
 local JO1TAR0GUI = Instance.new("TextButton")
@@ -461,7 +461,7 @@ SKYBOX.BorderSizePixel = 3
 SKYBOX.Position = UDim2.new(0.68, 0, 0.25, 0)
 SKYBOX.Size = UDim2.new(0, 92, 0, 30)
 SKYBOX.Font = Enum.Font.SourceSans
-SKYBOX.Text = "SKYBOX"
+SKYBOX.Text = "SKYBOX1"
 SKYBOX.TextColor3 = Color3.fromRGB(242, 243, 243)
 SKYBOX.TextScaled = true
 SKYBOX.TextSize = 14.000
@@ -469,12 +469,12 @@ SKYBOX.TextWrapped = true
 SKYBOX.MouseButton1Down:connect(function()
 s = Instance.new("Sky")
 		s.Name = "SKY"
-		s.SkyboxBk = "http://www.roblox.com/Asset/?id=15710230657"
-		s.SkyboxDn = "http://www.roblox.com/Asset/?id=15710230657"
-		s.SkyboxFt = "http://www.roblox.com/Asset/?id=15710230657"
-		s.SkyboxLf = "http://www.roblox.com/Asset/?id=15710230657"
-		s.SkyboxRt = "http://www.roblox.com/Asset/?id=15710230657"
-                s.SkyboxUp = "http://www.roblox.com/Asset/?id=15710230657"
+		s.SkyboxBk = "http://www.roblox.com/Asset/?id=15767625666"
+		s.SkyboxDn = "http://www.roblox.com/Asset/?id=15767625666"
+		s.SkyboxFt = "http://www.roblox.com/Asset/?id=15767625666"
+		s.SkyboxLf = "http://www.roblox.com/Asset/?id=15767625666"
+		s.SkyboxRt = "http://www.roblox.com/Asset/?id=15767625666"
+                s.SkyboxUp = "http://www.roblox.com/Asset/?id=15767625666"
                 s.Parent = game.Lighting
 wait()
 end)
@@ -612,24 +612,29 @@ for i,v in pairs(workspace:GetDescendants()) do
         end
     end
 end)
-FIREALL.Parent = TextLabel_3
-FIREALL.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-FIREALL.BorderColor3 = Color3.fromRGB(75, 151, 75)
-FIREALL.BorderSizePixel = 3
-FIREALL.Position = UDim2.new(0.38, 0, 0.55, 0)
-FIREALL.Size = UDim2.new(0, 92, 0, 30)
-FIREALL.Font = Enum.Font.SourceSans
-FIREALL.Text = "FIRE MYSELF"
-FIREALL.TextColor3 = Color3.fromRGB(242, 243, 243)
-FIREALL.TextScaled = true
-FIREALL.TextSize = 14.000
-FIREALL.TextWrapped = true
-FIREALL.MouseButton1Down:connect(function()
-local player = game:GetService("Players").LocalPlayer
-local Fire = Instance.new("Fire", player.Character.Torso)
-Fire.Size = 20
-Fire.Color = Color3.new(1,1,90)
-Fire.SecondaryColor = Color3.new(1,1,90)
+SKYBOX2.Parent = TextLabel_3
+SKYBOX2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SKYBOX2.BorderColor3 = Color3.fromRGB(75, 151, 75)
+SKYBOX2.BorderSizePixel = 3
+SKYBOX2.Position = UDim2.new(0.38, 0, 0.55, 0)
+SKYBOX2.Size = UDim2.new(0, 92, 0, 30)
+SKYBOX2.Font = Enum.Font.SourceSans
+SKYBOX2.Text = "SKYBOX2"
+SKYBOX2.TextColor3 = Color3.fromRGB(242, 243, 243)
+SKYBOX2.TextScaled = true
+SKYBOX2.TextSize = 14.000
+SKYBOX2.TextWrapped = true
+SKYBOX2.MouseButton1Down:connect(function()
+s = Instance.new("Sky")
+		s.Name = "SKY"
+		s.SkyboxBk = "rbxassetid://15790326222"
+		s.SkyboxDn = "rbxassetid://15790326222"
+		s.SkyboxFt = "rbxassetid://15790326222"
+		s.SkyboxLf = "rbxassetid://15790326222"
+		s.SkyboxRt = "rbxassetid://15790326222"
+                s.SkyboxUp = "rbxassetid://15790326222"
+                s.Parent = game.Lighting
+wait()
 end)
 DREAMYBULLXXX.Parent = TextLabel_3
 DREAMYBULLXXX.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
