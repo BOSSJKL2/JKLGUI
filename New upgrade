@@ -32,6 +32,7 @@ local DREAMYBULLXXX = Instance.new("TextButton")
 local DECALSPAM1 = Instance.new("TextButton")
 local JO1TAR0GUI = Instance.new("TextButton")
 local ARABGUI = Instance.new("TextButton")
+local TOADKAAX = Instance.new("TextButton")
 
 --Properties:
 
@@ -687,6 +688,21 @@ ARABGUI.TextScaled = true
 ARABGUI.TextSize = 14.000
 ARABGUI.TextWrapped = true
 ARABGUI.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/Arab-gui/main/Arab%20gui"))()
+end)
+TOADKAAX.Parent = TextLabel_3
+TOADKAAX.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TOADKAAX.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TOADKAAX.BorderSizePixel = 3
+TOADKAAX.Position = UDim2.new(0.68, 0, 0.65, 0)
+TOADKAAX.Size = UDim2.new(0, 92, 0, 30)
+TOADKAAX.Font = Enum.Font.SourceSans
+TOADKAAX.Text = "TOADROAST"
+TOADKAAX.TextColor3 = Color3.fromRGB(242, 243, 243)
+TOADKAAX.TextScaled = true
+TOADKAAX.TextSize = 14.000
+TOADKAAX.TextWrapped = true
+TOADKAAX.MouseButton1Down:connect(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/Arab-gui/main/Arab%20gui"))()
 end)
 
