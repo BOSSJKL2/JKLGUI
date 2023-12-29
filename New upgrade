@@ -36,7 +36,7 @@ local TOADKAAX = Instance.new("TextButton")
 local FASTHINT = Instance.new("TextButton")
 local MESSAGESPAM = Instance.new("TextButton")
 
---Properties:
+--Properties :
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
