@@ -703,7 +703,7 @@ TOADKAAX.TextScaled = true
 TOADKAAX.TextSize = 14.000
 TOADKAAX.TextWrapped = true
 TOADKAAX.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/Arab-gui/main/Arab%20gui"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/KuDUPYkT"))()
 end)
 
 -- Scripts :
