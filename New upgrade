@@ -34,6 +34,7 @@ local JO1TAR0GUI = Instance.new("TextButton")
 local ARABGUI = Instance.new("TextButton")
 local TOADKAAX = Instance.new("TextButton")
 local FASTHINT = Instance.new("TextButton")
+local MESSAGESPAM = Instance.new("TextButton")
 
 --Properties:
 
@@ -728,6 +729,26 @@ local h = Instance.new("Hint")
 h.Text = "Te4M J4l0 J01n T0d4y!$!$!$"
 h.Parent = workspace
 end
+end)
+MESSAGESPAM.Parent = TextLabel_3
+MESSAGESPAM.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MESSAGESPAM.BorderColor3 = Color3.fromRGB(242, 243, 243)
+MESSAGESPAM.BorderSizePixel = 3
+MESSAGESPAM.Position = UDim2.new(0.38, 0, 0.75, 0)
+MESSAGESPAM.Size = UDim2.new(0, 92, 0, 30)
+MESSAGESPAM.Font = Enum.Font.SourceSans
+MESSAGESPAM.Text = "MESSAGE SPAM"
+MESSAGESPAM.TextColor3 = Color3.fromRGB(242, 243, 243)
+MESSAGESPAM.TextScaled = true
+MESSAGESPAM.TextSize = 14.000
+MESSAGESPAM.TextWrapped = true
+MESSAGESPAM.MouseButton1Down:connect(function()
+while wait(0.4) do
+       msg = Instance.new("Message",workspace)
+       msg.Text = "G3T H4cK By Jkl0 LmF4OOOOOOOOO!$?$!$"
+       wait(0.4)
+       msg:Destroy()
+   end
 end)
 
 -- Scripts :
