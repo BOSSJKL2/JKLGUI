@@ -33,6 +33,7 @@ local DECALSPAM1 = Instance.new("TextButton")
 local JO1TAR0GUI = Instance.new("TextButton")
 local ARABGUI = Instance.new("TextButton")
 local TOADKAAX = Instance.new("TextButton")
+local FASTHINT = Instance.new("TextButton")
 
 --Properties:
 
@@ -703,6 +704,21 @@ TOADKAAX.TextScaled = true
 TOADKAAX.TextSize = 14.000
 TOADKAAX.TextWrapped = true
 TOADKAAX.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/KuDUPYkT"))()
+end)
+FASTHINT.Parent = TextLabel_3
+FASTHINT.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FASTHINT.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FASTHINT.BorderSizePixel = 3
+FASTHINT.Position = UDim2.new(0.08, 0, 0.75, 0)
+FASTHINT.Size = UDim2.new(0, 92, 0, 30)
+FASTHINT.Font = Enum.Font.SourceSans
+FASTHINT.Text = "SUPER FAST HINT"
+FASTHINT.TextColor3 = Color3.fromRGB(242, 243, 243)
+FASTHINT.TextScaled = true
+FASTHINT.TextSize = 14.000
+FASTHINT.TextWrapped = true
+FASTHINT.MouseButton1Down:connect(function()
 loadstring(game:HttpGet("https://pastebin.com/raw/KuDUPYkT"))()
 end)
 
