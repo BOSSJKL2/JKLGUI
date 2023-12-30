@@ -37,6 +37,7 @@ local ARABGUI = Instance.new("TextButton")
 local TOADKAAX = Instance.new("TextButton")
 local FASTHINT = Instance.new("TextButton")
 local MESSAGESPAM = Instance.new("TextButton")
+local KAAXPARTICLES = Instance.new("TextButton")
 
 --Properties :
 
@@ -883,6 +884,47 @@ while wait(0.4) do
        wait(0.4)
        msg:Destroy()
    end
+end)
+KAAXPARTICLES.Parent = TextLabel_3
+KAAXPARTICLES.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+KAAXPARTICLES.BorderColor3 = Color3.fromRGB(242, 243, 243)
+KAAXPARTICLES.BorderSizePixel = 3
+KAAXPARTICLES.Position = UDim2.new(0.68, 0, 0.75, 0)
+KAAXPARTICLES.Size = UDim2.new(0, 92, 0, 30)
+KAAXPARTICLES.Font = Enum.Font.SourceSans
+KAAXPARTICLES.Text = "KAAX PARTICLES"
+KAAXPARTICLES.TextColor3 = Color3.fromRGB(242, 243, 243)
+KAAXPARTICLES.TextScaled = true
+KAAXPARTICLES.TextSize = 14.000
+KAAXPARTICLES.TextWrapped = true
+KAAXPARTICLES.MouseButton1Down:connect(function()
+local ID = 15681662754 -- Change your ID here fellas cXz (Image ID)
+ local particle = true
+
+-- Don’t change anything down below if you don’t know what are you doing [This script made by cXyzkidd]
+
+if particle == true then
+	for i,v in pairs (game.Workspace:GetChildren()) do
+		if v:IsA("Part") then
+			local particle = Instance.new("ParticleEmitter")
+			particle.Texture = "http://www.roblox.com/asset/?id=" ..ID
+			particle.Parent = v
+			particle.Rate = 200
+			for i,x in pairs (game.Workspace:GetChildren()) do
+				if x:IsA("Model") then
+					for i,z in pairs (x:GetChildren()) do
+						if z:IsA("Part") then
+							local particle2 = Instance.new("ParticleEmitter")
+							particle2.Texture = "http://www.roblox.com/asset/?id=" ..ID
+							particle2.Parent = z
+							particle2.Rate = 200
+						end
+					end
+				end
+			end
+		end
+	end
+end
 end)
 
 -- Scripts :
