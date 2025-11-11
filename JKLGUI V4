@@ -346,7 +346,7 @@ HINTGAME.TextSize = 14.000
 HINTGAME.TextWrapped = true
 HINTGAME.MouseButton1Down:connect(function()
 local m = Instance.new("Hint", game.workspace)
-m.Text = "TEAM JKLO JOINED TO DAY!11!2!☣️🔥"
+m.Text = "TEAM JKLO RETURNED TO DAY!11!2!☣️🔥"
 end)
 BALLRAINING.Parent = TextLabel_3
 BALLRAINING.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
